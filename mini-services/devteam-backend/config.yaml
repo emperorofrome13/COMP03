@@ -1,0 +1,21 @@
+ai:
+  base_url: "http://localhost:1234/v1"
+  api_key: "lm-studio"
+  model: "auto"
+  max_tokens: 8192
+  temperature: 0.2
+
+workspace:
+  root: "./workspace"
+
+server:
+  host: "127.0.0.1"
+  port: 3030
+
+tools:
+  search_enabled: true
+  exec_enabled: true
+  exec_timeout_seconds: 30
+
+memory:
+  max_context_tokens: 6000

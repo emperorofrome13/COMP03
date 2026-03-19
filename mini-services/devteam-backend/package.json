@@ -1,0 +1,11 @@
+{
+  "name": "devteam-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun --hot index.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.4.0",
+    "nanoid": "^5.0.0"
+  }
+}
